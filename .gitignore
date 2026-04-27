@@ -1,0 +1,26 @@
+# ====== 忽略大文件和私有配置 ======
+
+# 工作目录（个人配置）
+.workbuddy/
+$null
+*.bat
+
+# 视频（单个40-150MB，远超GitHub 100MB限制）
+assets/videos/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.temp
+
+# 脚本工具（仅本地使用）
+_get_vid_size.ps1
+_scan_jianying.ps1
